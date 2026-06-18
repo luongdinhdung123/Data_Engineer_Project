@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+
+# Editor/project settings
+.vscode/
+.idea/
+
+# Local Python version manager
+.python-version
+
+# Data files
+*.parquet
+
+# Optional cache and test output
+.pytest_cache/
+coverage.xml
+htmlcov/
