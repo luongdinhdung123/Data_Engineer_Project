@@ -14,10 +14,28 @@ venv/
 # Local Python version manager
 .python-version
 
-# Data files
+# Data files and generated outputs
+ny_taxi_postgres_data/
 *.parquet
+*.csv.gz
+output_day_10.parquet
+
+# Scratch notebooks and checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# Local test/demo artifacts
+test/
+
+taxi_ingest*
+--network=*
+--pg-*
+--target-table*
 
 # Optional cache and test output
 .pytest_cache/
 coverage.xml
 htmlcov/
+
+# macOS metadata
+.DS_Store
